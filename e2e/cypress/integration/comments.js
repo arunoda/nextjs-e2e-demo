@@ -2,7 +2,7 @@ describe('Navigation', () => {
     beforeEach(() => {
         cy.visit('http://localhost:3004')
         cy.exec('curl http://localhost:3004/api/reset-db')
-        cy.wait(2000)
+        cy.wait(10000)
     })
     
     it('should be able to add comment', () => {  
@@ -17,6 +17,7 @@ describe('Navigation', () => {
         cy.contains('test-auth').click()
         cy.contains('Show Comments').click()
         cy.get('textarea').type(commentText)
+
         cy.contains('Add Comment').click()
 
         cy.get('.comment-content').contains(commentText)
