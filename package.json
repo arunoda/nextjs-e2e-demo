@@ -1,0 +1,33 @@
+{
+  "name": "lesson-nextjs-static-regeneration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next -p 3004",
+    "build": "next build",
+    "start": "next start -p 3004"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arunoda/nextjs-blog-with-github-cms"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arunoda/nextjs-blog-with-github-cms/issues"
+  },
+  "homepage": "https://github.com/arunoda/nextjs-blog-with-github-cms#readme",
+  "dependencies": {
+    "@octokit/rest": "^18.0.0",
+    "markdown-to-jsx": "^6.11.4",
+    "mongodb": "^3.5.9",
+    "ms": "^2.1.2",
+    "nanoid": "^3.1.11",
+    "next": "latest",
+    "next-auth": "^3.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "swr": "^0.2.3"
+  }
+}
