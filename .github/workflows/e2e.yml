@@ -26,6 +26,6 @@ jobs:
     - run: |
         cd e2e
         yarn
-        yarn test
+        npx cypress run --record --key ${{ secrets.CYPRSS_IO_TOKEN }}
         
         
