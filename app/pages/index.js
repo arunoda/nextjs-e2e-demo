@@ -32,6 +32,6 @@ export async function getStaticProps({previewData = null}) {
             postList,
             previewData
         },
-        unstable_revalidate: 5
+        unstable_revalidate: 1
     }
 }

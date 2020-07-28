@@ -4,6 +4,7 @@ describe('Navigation', () => {
         cy.exec('curl http://localhost:3004/api/reset-db')
         cy.wait(2000)
         cy.visit('http://localhost:3004')
+        cy.wait(1000)
         cy.visit('http://localhost:3004')
     })
     
