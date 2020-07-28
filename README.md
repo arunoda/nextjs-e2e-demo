@@ -5,8 +5,8 @@ We build this app as a part of [this live stream](https://www.youtube.com/watch?
 
 ### Test Results
 
-* This is running inside a GitHub action
-* This is how to view a test session inside Cypress.io
+* This is running tests [inside a GitHub action](https://github.com/arunoda/nextjs-e2e-demo/runs/920711967)
+* This is how to view a test session [inside Cypress.io](https://dashboard.cypress.io/projects/y2s3h2/runs/9/specs)
 
 ### Run it locally
 
