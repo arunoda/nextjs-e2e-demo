@@ -2,8 +2,9 @@ describe('Navigation', () => {
     beforeEach(() => {
         cy.visit('http://localhost:3004')
         cy.exec('curl http://localhost:3004/api/reset-db')
-        cy.reload()
-        cy.reload()
+        cy.wait(2000)
+        cy.visit('http://localhost:3004')
+        cy.visit('http://localhost:3004')
     })
     
     it('should be able to add comment', () => {  
