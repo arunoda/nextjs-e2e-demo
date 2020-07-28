@@ -1,6 +1,7 @@
 describe('Navigation', () => {
     beforeEach(() => {
         cy.visit('http://localhost:3004')
+        cy.exec('curl http://localhost:3004/api/reset-db')
     })
     
     it('should open the homepage', () => {  
