@@ -10,6 +10,6 @@
   },
   "scripts": {
     "dev": "cypress open",
-    "test": "cypress run"
+    "test": "cypress run --record --key 662f089f-b436-4173-85e5-015bdc7046e5"
   }
 }
