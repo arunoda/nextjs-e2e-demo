@@ -1,6 +1,8 @@
 describe('Navigation', () => {
     beforeEach(() => {
         cy.visit('http://localhost:3004')
+        cy.reload()
+        cy.reload()
         cy.exec('curl http://localhost:3004/api/reset-db')
     })
     
