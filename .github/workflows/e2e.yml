@@ -25,3 +25,5 @@ jobs:
         cd e2e
         yarn
         yarn test
+        
+        
