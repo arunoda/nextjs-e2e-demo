@@ -1,0 +1,15 @@
+{
+  "name": "nextjs-e2e-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:arunoda/nextjs-e2e-demo.git",
+  "author": "Arunoda Susiripal <50838+arunoda@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cypress": "^4.11.0"
+  },
+  "scripts": {
+    "dev": "cypress open",
+    "test": "cypress run"
+  }
+}
